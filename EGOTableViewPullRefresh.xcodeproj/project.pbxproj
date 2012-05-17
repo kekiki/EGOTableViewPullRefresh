@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		630CBB3E1564D1860087172E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630CBB3D1564D1860087172E /* UIKit.framework */; };
+		630CBB401564D1860087172E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630CBB3F1564D1860087172E /* Foundation.framework */; };
+		630CBB421564D1860087172E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630CBB411564D1860087172E /* CoreGraphics.framework */; };
+		630CBB481564D1860087172E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 630CBB461564D1860087172E /* InfoPlist.strings */; };
+		630CBB4A1564D1860087172E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 630CBB491564D1860087172E /* main.m */; };
+		630CBB4E1564D1860087172E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 630CBB4D1564D1860087172E /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		630CBB391564D1860087172E /* EGOTableViewPullRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EGOTableViewPullRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		630CBB3D1564D1860087172E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		630CBB3F1564D1860087172E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		630CBB411564D1860087172E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		630CBB451564D1860087172E /* EGOTableViewPullRefresh-Info.plist */ = {isa = PBXFileReference; path = "EGOTableViewPullRefresh-Info.plist"; sourceTree = "<group>"; };
+		630CBB471564D1860087172E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		630CBB491564D1860087172E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		630CBB4B1564D1860087172E /* EGOTableViewPullRefresh-Prefix.pch */ = {isa = PBXFileReference; path = "EGOTableViewPullRefresh-Prefix.pch"; sourceTree = "<group>"; };
+		630CBB4C1564D1860087172E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		630CBB4D1564D1860087172E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		630CBB361564D1860087172E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630CBB3E1564D1860087172E /* UIKit.framework in Frameworks */,
+				630CBB401564D1860087172E /* Foundation.framework in Frameworks */,
+				630CBB421564D1860087172E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		630CBB2E1564D1860087172E = {
+			isa = PBXGroup;
+			children = (
+				630CBB431564D1860087172E /* EGOTableViewPullRefresh */,
+				630CBB3C1564D1860087172E /* Frameworks */,
+				630CBB3A1564D1860087172E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		630CBB3A1564D1860087172E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				630CBB391564D1860087172E /* EGOTableViewPullRefresh.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		630CBB3C1564D1860087172E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				630CBB3D1564D1860087172E /* UIKit.framework */,
+				630CBB3F1564D1860087172E /* Foundation.framework */,
+				630CBB411564D1860087172E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		630CBB431564D1860087172E /* EGOTableViewPullRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				630CBB4C1564D1860087172E /* AppDelegate.h */,
+				630CBB4D1564D1860087172E /* AppDelegate.m */,
+				630CBB441564D1860087172E /* Supporting Files */,
+			);
+			path = EGOTableViewPullRefresh;
+			sourceTree = "<group>";
+		};
+		630CBB441564D1860087172E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				630CBB451564D1860087172E /* EGOTableViewPullRefresh-Info.plist */,
+				630CBB461564D1860087172E /* InfoPlist.strings */,
+				630CBB491564D1860087172E /* main.m */,
+				630CBB4B1564D1860087172E /* EGOTableViewPullRefresh-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		630CBB381564D1860087172E /* EGOTableViewPullRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 630CBB511564D1860087172E /* Build configuration list for PBXNativeTarget "EGOTableViewPullRefresh" */;
+			buildPhases = (
+				630CBB351564D1860087172E /* Sources */,
+				630CBB361564D1860087172E /* Frameworks */,
+				630CBB371564D1860087172E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EGOTableViewPullRefresh;
+			productName = EGOTableViewPullRefresh;
+			productReference = 630CBB391564D1860087172E /* EGOTableViewPullRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		630CBB301564D1860087172E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "华夏未来";
+			};
+			buildConfigurationList = 630CBB331564D1860087172E /* Build configuration list for PBXProject "EGOTableViewPullRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 630CBB2E1564D1860087172E;
+			productRefGroup = 630CBB3A1564D1860087172E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				630CBB381564D1860087172E /* EGOTableViewPullRefresh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		630CBB371564D1860087172E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630CBB481564D1860087172E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		630CBB351564D1860087172E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630CBB4A1564D1860087172E /* main.m in Sources */,
+				630CBB4E1564D1860087172E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		630CBB461564D1860087172E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				630CBB471564D1860087172E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		630CBB4F1564D1860087172E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		630CBB501564D1860087172E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		630CBB521564D1860087172E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EGOTableViewPullRefresh/EGOTableViewPullRefresh-Prefix.pch";
+				INFOPLIST_FILE = "EGOTableViewPullRefresh/EGOTableViewPullRefresh-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		630CBB531564D1860087172E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EGOTableViewPullRefresh/EGOTableViewPullRefresh-Prefix.pch";
+				INFOPLIST_FILE = "EGOTableViewPullRefresh/EGOTableViewPullRefresh-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		630CBB331564D1860087172E /* Build configuration list for PBXProject "EGOTableViewPullRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630CBB4F1564D1860087172E /* Debug */,
+				630CBB501564D1860087172E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		630CBB511564D1860087172E /* Build configuration list for PBXNativeTarget "EGOTableViewPullRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				630CBB521564D1860087172E /* Debug */,
+				630CBB531564D1860087172E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 630CBB301564D1860087172E /* Project object */;
+}
